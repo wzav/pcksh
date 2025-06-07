@@ -39930,7 +39930,7 @@
   
                   /* Quit the game */
                   if(settings.autorespawn.enabled){
-                      client.steal_token()
+                      //client.steal_token()
                       setTimeout(() => {
                           client.connect();
                       },1000)
